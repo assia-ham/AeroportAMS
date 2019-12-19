@@ -1,0 +1,254 @@
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:600,900');
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,500,700&display=swap');
+
+
+
+
+h3{
+
+  font-family: 'Rajdhani';
+  color: #fff!important;
+  font-weight: 100!important;
+  font-size: 1.2em!important;
+  letter-spacing: 1px;
+  }
+
+
+h4{
+    font-family: 'Montserrat';
+    color: #ED1250;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+ }
+ 
+.p5{ font-weight: 400!important;
+    font-size: 3.5em;
+    font-family: 'Montserrat'!important;
+    color: #fff!important;
+  }
+ 
+.colorFontWhite{
+  color: #fff;
+}
+ 
+body{
+  background: url('../img/background.jpg') no-repeat;
+  background-size: cover ;
+  height: 100%;
+  
+}
+
+body {
+  margin: 0;
+  font-family: 'Rajdhani',sans-serif!important;
+}
+
+.date{
+  text-align: center;
+}
+
+.date h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 3.5em;
+    font-weight: 900;
+    color: #042F4B;
+  }
+
+.date h4{
+    font-family: 'Rajdhani', sans-serif;
+    color: #ED1250;
+    font-size: 1em;
+    letter-spacing: 1px;
+  }
+
+.h-divider{
+ margin-top:5px;
+ margin-bottom:5px;
+ height:1px;
+ width:100%;
+ border-top:1px solid #ED1250;
+}
+
+.containerAdmin {
+  background: #042F4B;
+  padding: 1em;
+  border-radius: 10px 15px 80px 12px;
+  padding-bottom: 3em;
+  height: 700px!important;
+  
+}
+
+.logo{max-width: 260px!important;}
+
+.btn-line{
+  border-radius: 20px!important;
+  font-size: 0.8em!important;
+  padding: 2px 15px!important;
+  background: #fff!important;
+  color: #042F4B!important;
+  font-family: 'Rajdhani', sans-serif!important;
+  border: 1px solid #ED1250!important;
+}
+
+
+.btn-line:hover , .btn-solid{
+  border-radius: 20px!important;
+  font-size: 0.8em!important;
+  padding: 2px 18px!important;
+  background: #ED1250!important;
+  color: #fff!important;
+  font-family: 'Rajdhani', sans-serif!important;
+  border: 1px solid #ED1250!important;
+}
+
+
+
+.containerListe {
+  background: #042F4B;
+  padding: 1em;
+  border-radius: 10px 15px 80px 12px;
+  padding-bottom: 3em;
+}
+
+  
+.containerListe h2{
+  font-weight: 300!important;
+  font-size: 2em;
+  color: #fff;
+  }
+
+.head{
+  font-family: 'Rajdhani', sans-serif;
+  color: #fff;
+}
+
+.head p{
+    text-align: center;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.head p span{
+    color: #ED1250;
+}
+
+.head h1{ font-weight: 300!important;
+    font-size: 3.5em;
+  }
+  
+  .head h2{  color: #fff!important;
+  }
+
+.head .row{ max-height: 80px; }
+.head .row img{max-width: 60px!important;}
+ 
+.head .col-sm-4:last-child{ text-align: right;}
+ 
+.notification{
+	background: #ED1251;
+}
+ 
+img{
+  	max-width:260px!important;
+    max-height: 100px;
+}
+  
+ .h100{
+  padding-top: 100px;
+}
+
+ .h200{
+  padding-top: 200px;
+}
+
+
+ .h30{
+  padding-top: 30px;
+}
+
+.pbottom{
+	padding-bottom:100px;
+}
+
+.cards{
+	color:#fff!important;
+	background: #042F4B!important;
+	border-color:#042F4B!important;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
+/* Table ------------------------------------------------------------------------ */
+
+th {
+    border: 0px;
+}
+
+td {
+    border: none;
+}
+
+tr {
+    border-bottom: 1px solid #032033;
+    border-left: 1px solid #042f4b;
+    border-right: 1px solid #042f4b;
+    color: #fff;
+}
+
+tr td {
+    border: none;
+    height: 38px;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.headTable {
+    background: #042840;
+    border: none;
+    border-bottom: 1px solid #ed1250;
+    color: #fff;
+}
+
+.btn-suivre img {
+    max-height: 30px;
+    margin: 5px;
+}
+
+.btn-filtre-1 {
+    padding: 7px;
+    background: #ED1251;
+}
+
+.btn-filtre-0 {
+    padding: 7px;
+    background: #b7e886;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #ed1250!important;
+    border-color: #ed1250!important;
+}
+
+.details{
+  color:#fff;
+}
+
+.details h4{
+  color:#ED1251;
+}
+
+.avis {
+  color: #fff;
+  font-size: 12.2px;
+  text-align: justify;
+}
+
+.line {
+  background: #ed1250;
+  margin-top: 32px;
+}

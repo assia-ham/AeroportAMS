@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+<class name="dao.volajour" table="volajour" >
+
+	
+	
+	<composite-id class="dao.volajour" mapped="true">         
+	<key-property name="numVol" column="numVol" />        
+	 <key-property name="dateVol" column="dateVol"/>
+    </composite-id >
+	
+	
+
+	<property name="heureEstime" column="heureEstime"></property>
+	<property name="statutChange" column="statutChange"></property>
+
+</class>
+ 
+  
+</hibernate-mapping>
